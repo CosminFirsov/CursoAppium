@@ -93,7 +93,7 @@ public class AndroidCreateSessionTest {
     
     public static URL getServiceUrl () throws MalformedURLException {
 //        return service.getUrl();
-    	return new URL("http://127.0.0.1:4723/wd/hub");
+    	return new URL("http://10.0.2.2:4723/wd/hub");
     }
 	
 }
